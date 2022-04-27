@@ -8,6 +8,7 @@
 }
 .buttons, .actual-game {
   display:flex;
+  align-items:center;
   justify-content:center; 
   padding: 20px;
 }
@@ -34,4 +35,8 @@
 }
 .center {
   background-color:grey;
+}
+.restart {
+  
+  align-items:center;
 }

@@ -48,3 +48,6 @@ function restartGame() {
 }
     
 startGame(16);
+
+const restart = document.querySelector('.restart')
+restart.addEventListener('click', () => restartGame() );
